@@ -1,0 +1,21 @@
+<div class="outer-container">
+    <div class="container">
+      <h2>Consulta el Precio de Bitcoin</h2>
+      <form (submit)="getPrice()">
+          <label for="date">Fecha:</label>
+          <input type="date" id="date" [(ngModel)]="selectedDate" name="selectedDate" required>
+          <button type="submit">Consultar</button>
+        </form>
+  
+      <div *ngIf="price">
+        <h3>Precio de Bitcoin:</h3>
+        <p>{{ price }} USD</p>
+      </div>
+  
+      <div *ngIf="errorMessage" class="error">
+        <p>{{ errorMessage }}</p>
+      </div>
+      <h4>(Solo desde el ultimo año, API gratuita)</h4>
+    </div>
+  </div>
+  

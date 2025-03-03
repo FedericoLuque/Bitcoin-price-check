@@ -1,0 +1,107 @@
+/* Restablece márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;  /* Asegura que el HTML y el body ocupen todo el alto de la pantalla */
+    font-family: Arial, sans-serif;
+  }
+  
+  .outer-container {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    height: 100vh;            /* Usa la altura total de la ventana */
+    background-color: #1b1b1b; /* Fondo oscuro */
+  }
+  
+  .container {
+    background-color: #2c2c2c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 80%;             /* Ancho del formulario */
+    max-width: 500px;       /* Ancho máximo para no estirarse demasiado */
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    color: #f7931a; /* Naranja de Bitcoin */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    color: #f7931a; /* Naranja de Bitcoin */
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    color: #f7931a; /* Naranja de Bitcoin */
+    margin-bottom: 8px;
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f7931a; /* Borde naranja */
+    border-radius: 5px;
+    background-color: #333333; /* Fondo oscuro para el input */
+    color: white;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #f7931a; /* Naranja de Bitcoin */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ffb74d; /* Naranja más claro para hover */
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  h3 {
+    color: #f7931a; /* Naranja de Bitcoin */
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: white; /* Texto blanco sobre fondo oscuro */
+  }
+  
+  .error {
+    background-color: #e64a19; /* Naranja oscuro para el mensaje de error */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  .error p {
+    margin: 0;
+  }
+  
