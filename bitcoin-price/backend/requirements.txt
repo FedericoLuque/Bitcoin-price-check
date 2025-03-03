@@ -1,2 +1,4 @@
 pycoingecko
 requests
+fastapi 
+uvicorn
