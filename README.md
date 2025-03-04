@@ -15,12 +15,20 @@ cd Bitcoin-price-check
 **Luego, instala todas las dependencias necesarias con `npm`:**
 
 ```bash
+sudo apt install nodejs npm -y
+```
+
+```bash
 npm install
 ```
 Y angular CLI
 
 ```bash
 npm install -g @angular/cli
+```
+
+```bash
+sudo apt install ng-common
 ```
 
 **Lanza el frontend:**
