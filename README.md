@@ -1,66 +1,55 @@
 **Ejecuta el siguiente comando para clonar el repositorio:**
 
+# Clonar el repositorio
 ```bash
 git clone https://github.com/FedericoLuque/Bitcoin-price-check.git
 ```
 
-**Instalar dependencias:**
-
-Accede a la carpeta del proyecto:
-
+# Acceder a la carpeta del proyecto
 ```bash
 cd Bitcoin-price-check
 ```
 
-```bash
-cd bitcoin-price
-```
-
-**Luego, instala todas las dependencias necesarias con `npm`:**
-
+# Instalar Node.js y npm
 ```bash
 sudo apt install nodejs npm -y
 ```
 
+# Instalar dependencias del proyecto
 ```bash
 npm install
 ```
-Y angular CLI
 
+# Instalar Angular CLI (si no está instalado)
 ```bash
-npm install -g @angular/cli
+sudo npm install -g @angular/cli
 ```
 
-```bash
-sudo apt install ng-common
-```
-
-**Lanza el frontend:**
-
+# Ejecutar el frontend
 ```bash
 ng serve -o
 ```
 
-**Abre una nueva terminal y accede a la carpeta de backend:**
+# Abre una nueva terminal y accede a la carpeta de backend:
 
 ```bash
 cd backend
 ```
 
-**Crea y accede al entorno:**
+# Crea y accede al entorno:
   
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-**Instala los requerimientos:**
+# Instala los requerimientos:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**Ejecuta el backend:**
+# Ejecuta el backend:
 
 ```bash
  uvicorn main:app --reload
