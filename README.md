@@ -10,6 +10,10 @@ git clone https://github.com/FedericoLuque/Bitcoin-price-check.git
 cd Bitcoin-price-check
 ```
 
+```bash
+cd bitcoin-price
+```
+
 # Instalar Node.js y npm
 ```bash
 sudo apt install nodejs npm -y
