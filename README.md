@@ -17,6 +17,12 @@ cd Bitcoin-price-check
 ```bash
 npm install
 ```
+Y angular CLI
+
+```bash
+npm install -g @angular/cli
+```
+
 **Lanza el frontend:**
 
 ```bash
