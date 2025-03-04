@@ -13,7 +13,7 @@ cd Bitcoin-price-check
 ```
 
 ```bash
-cd Bitcoin-price
+cd bitcoin-price
 ```
 
 **Luego, instala todas las dependencias necesarias con `npm`:**
