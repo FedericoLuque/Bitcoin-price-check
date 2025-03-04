@@ -12,6 +12,10 @@ Accede a la carpeta del proyecto:
 cd Bitcoin-price-check
 ```
 
+```bash
+cd Bitcoin-price
+```
+
 **Luego, instala todas las dependencias necesarias con `npm`:**
 
 ```bash
